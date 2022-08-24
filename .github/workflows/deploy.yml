@@ -70,4 +70,4 @@ jobs:
           task-definition: ${{ steps.web-task-def.outputs.task-definition }}
           service: task-vuejsServ
           cluster: task-vuejsCluster
-          wait-for-service-stability: true
+          
